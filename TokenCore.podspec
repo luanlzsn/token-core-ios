@@ -13,14 +13,14 @@ Pod::Spec.new do |s|
     file: "LICENSE"
   }
 
-  s.author        = { "James Chen" => "james@ashchan.com" }
+  s.author        = { "luanlzsn" => "331838894@qq.com" }
   s.platform      = :ios, "9.0"
 
-  s.source        = { :git => "https://github.com/consenlabs/ios-token-core.git", :tag => "#{s.version}" }
+  s.source        = { :git => "https://github.com/luanlzsn/ios-token-core.git", :tag => "#{s.version}" }
   s.source_files  = "Sources/**/*.{h,m,swift}"
   s.swift_version = "4.0"
-  s.dependency "CryptoSwift", "0.9.0"
-  s.dependency "BigInt", "3.0.0"
+  s.dependency "CryptoSwift"
+  s.dependency "BigInt"
   s.dependency "GRKOpenSSLFramework"
   s.dependency "TokenCoreDep"
   s.dependency "secp256k1.swift"
